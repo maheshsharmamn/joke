@@ -10,10 +10,22 @@ html, body {
 }
 
 .reload{
-color: aqua;
-    font-size: 2rem;
+/* color: aqua; */
+/*     font-size: 2rem; */
     display: flex;
     justify-content: center;
+    margin-top: 10px;
+}
+.btn{
+    font-size: 2rem;
+    background: yellow;
+    padding: 5px;
+    border-radius: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+    background: #d6d605;
+    transition: ease-in-out 0.5s;
 }
 .container{
 /*     display: block; */
@@ -53,5 +65,10 @@ color: aqua;
 
     .jokes-container{
     margin-bottom: 3px;
-}
+    }
+
+    .reload{
+        margin-bottom: 10px;
+        
+    }
 }
