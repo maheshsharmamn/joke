@@ -1,5 +1,5 @@
 const getJokes = async () => {
-    let p = fetch("https://hindi-jokes-api.onrender.com/jokes/3?api_key=7f7590a428de01e751c4439b796e")
+    let p = fetch("https://hindi-jokes-api.onrender.com/jokes/4?api_key=c70c8fef66c3fdc424109272bdfe")
     let response = await p;
     let result = await response.json();
     return result
